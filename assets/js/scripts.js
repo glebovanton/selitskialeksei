@@ -337,6 +337,18 @@ $(window).on("scroll", function () {
 /*Анимация svg при загрузке*/
 window.onload = function () {
     $('#logo_img').attr("src", "assets/img/icon/logo_anim.svg");
-    $('#abt-left-thumb_img').attr("src", "assets/img/about/abt-left-thumb_animated.svg");
+/*    $('#abt-left-thumb_img').attr("src", "assets/img/about/abt-left-thumb_animated.svg");*/
+
+    $(window).scroll(function(){
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+        var elem = $('#abt-left-thumb_img');
+        var elemTop = elem.offset().top;
+        var elemBottom = elemTop + elem.height();
+
+        if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
+            elem.attr("src", "assets/img/about/abt-left-thumb_animated.svg");
+        }
+    });
 
 };
