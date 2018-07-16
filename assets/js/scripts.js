@@ -198,7 +198,8 @@
     ==================================*/
     $('ul#nav_menu').slicknav({
         prependTo: ".responsive-menu-wrap",
-        closeOnClick: true
+        closeOnClick: true,
+
     });
 
 
@@ -210,7 +211,7 @@
         var links = $links;
         var topGap = $topGap;
 
-        links.on("click", function () {
+        links.on("click touchstart", function () {
             if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
                 var target = $(this.hash);
                 target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");

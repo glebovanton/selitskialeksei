@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21d7a3e3-3dae-44a6-9c8e-411c46b80205" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont5b62.svg@v=4.6.3" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont5b62.svg@v=4.6.3" />
-      <change beforePath="$PROJECT_DIR$/assets/js/isotope.pkgd.min.js" afterPath="$PROJECT_DIR$/assets/js/isotope.pkgd.min.js" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/assets/js/jquery.magnific-popup.min.js" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins.js" afterPath="$PROJECT_DIR$/assets/js/plugins.js" />
-      <change beforePath="$PROJECT_DIR$/assets/js/vendor/modernizr-2.8.3.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/modernizr-2.8.3.min.js" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/assets/js/scripts.js" afterPath="$PROJECT_DIR$/assets/js/scripts.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="895">
-              <caret line="541" column="2" lean-forward="false" selection-start-line="541" selection-start-column="2" selection-end-line="541" selection-end-column="2" />
+            <state relative-caret-position="293">
+              <caret line="543" column="49" lean-forward="false" selection-start-line="543" selection-start-column="40" selection-end-line="543" selection-end-column="49" />
               <folding>
                 <marker date="1531744151608" expanded="true" signature="2266:2420" ph="..." />
                 <marker date="1531744151608" expanded="true" signature="2360:2388" ph="..." />
@@ -44,6 +38,16 @@
               <caret line="14" column="145" lean-forward="false" selection-start-line="14" selection-start-column="145" selection-end-line="14" selection-end-column="145" />
               <caret line="20" column="89" lean-forward="false" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
               <caret line="20" column="159" lean-forward="false" selection-start-line="20" selection-start-column="159" selection-end-line="20" selection-end-column="159" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1071">
+              <caret line="219" column="27" lean-forward="true" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -91,7 +95,6 @@
       <find>logo</find>
       <find>abt</find>
       <find>data-toggl</find>
-      <find>nav</find>
       <find>slick</find>
       <find>active</find>
       <find>slicknav</find>
@@ -102,6 +105,10 @@
       <find>http</find>
       <find>http:</find>
       <find>http://</find>
+      <find>nav</find>
+      <find>fab fa-vk</find>
+      <find>smoothScrolling</find>
+      <find>click</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -114,7 +121,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/scripts.js" />
         <option value="$PROJECT_DIR$/assets/css/default-css.css" />
         <option value="$PROJECT_DIR$/assets/css/caviar.css" />
         <option value="$PROJECT_DIR$/assets/img/icon/2/vecror_3.svg" />
@@ -126,6 +132,7 @@
         <option value="$PROJECT_DIR$/assets/img/icon/2/vecror_2.svg" />
         <option value="$PROJECT_DIR$/assets/img/icon/2/vecror_4_animated.svg" />
         <option value="$PROJECT_DIR$/assets/img/about/abt-left-thumb_animated.svg" />
+        <option value="$PROJECT_DIR$/assets/js/scripts.js" />
       </list>
     </option>
   </component>
@@ -213,12 +220,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531739547838</updated>
       <workItem from="1531739549249" duration="3643000" />
-      <workItem from="1531743209207" duration="1081000" />
+      <workItem from="1531743209207" duration="3971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4724000" />
+    <option name="totallyTimeSpent" value="7614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="513" y="59" width="1920" height="1053" extended-state="6" />
@@ -281,16 +288,6 @@
         <state relative-caret-position="154">
           <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="200" column="26" lean-forward="false" selection-start-line="200" selection-start-column="26" selection-end-line="200" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -378,12 +375,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="541" column="2" lean-forward="false" selection-start-line="541" selection-start-column="2" selection-end-line="541" selection-end-column="2" />
+        <state relative-caret-position="293">
+          <caret line="543" column="49" lean-forward="false" selection-start-line="543" selection-start-column="40" selection-end-line="543" selection-end-column="49" />
           <folding>
             <marker date="1531744151608" expanded="true" signature="2266:2420" ph="..." />
             <marker date="1531744151608" expanded="true" signature="2360:2388" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="219" column="27" lean-forward="true" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
