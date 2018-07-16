@@ -197,8 +197,10 @@
     10. slicknav Mobile Menu
     ==================================*/
     $('ul#nav_menu').slicknav({
-        prependTo: ".responsive-menu-wrap"
+        prependTo: ".responsive-menu-wrap",
+        closeOnClick: true
     });
+
 
 
     /*================================
@@ -337,9 +339,9 @@ $(window).on("scroll", function () {
 /*Анимация svg при загрузке*/
 window.onload = function () {
     $('#logo_img').attr("src", "assets/img/icon/logo_anim.svg");
-/*    $('#abt-left-thumb_img').attr("src", "assets/img/about/abt-left-thumb_animated.svg");*/
+    /*    $('#abt-left-thumb_img').attr("src", "assets/img/about/abt-left-thumb_animated.svg");*/
 
-    $(window).scroll(function(){
+    $(window).scroll(function () {
         var docViewTop = $(window).scrollTop();
         var docViewBottom = docViewTop + $(window).height();
         var elem = $('#abt-left-thumb_img');
