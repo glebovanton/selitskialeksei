@@ -350,7 +350,14 @@ window.onload = function () {
         var elemBottom = elemTop + elem.height();
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
+/*            АНИМАЦИЯ ЛОГО*/
             elem.attr("src", "assets/img/about/abt-left-thumb_animated.svg");
+
+/*            АНИМАЦИЯ ХАРАКТЕРИСТИК*/
+            $('.progress-bar').each(function () {
+                var getWidth = $(this).attr('aria-valuenow');
+                $(this).width(getWidth+'%')
+            })
         }
     });
 
